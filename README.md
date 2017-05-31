@@ -2,6 +2,7 @@
 I wrote some lisp programs to familiarize myself with Artificial Intelligence.
 
 • The command to use Common LISP is clisp.
+
 • Appendix A of LISPcraft summarizes LISP’s built-in functions. Each function is explained
 briefly. You will find this a very useful reference as you write and debug your
 programs. Also, you can get help about clisp by typing:
@@ -17,9 +18,11 @@ Details regarding the test program can be found in the attached materials for th
 assignment.
 
 • The test program may be executed by calling ./test.sh.
+
 • You may define additional helper functions that your main functions use. Be sure,
 though, to name the main functions as specified since the test program uses those
 names.
+
 • If you place a init.lsp file in the directory in which you execute LISP (or your home
 directory), LISP will load that file automatically when it starts execution. Such a file
 is useful to define your own environment. For instance, you will probably want to put
